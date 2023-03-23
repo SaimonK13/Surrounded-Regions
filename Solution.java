@@ -28,6 +28,7 @@ class Solution {
             }
         }
 
+        //iterate over visited array. If the cell value is false, then assign 'X' in the same position in board.
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
                 if(!visited[i][j]){
